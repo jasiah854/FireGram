@@ -1,0 +1,130 @@
+
+/*css media queries*/
+@media screen and (min-width: 350px) and (max-width: 500px){
+    body{
+        background-color: #fff;
+        width: auto;
+        height: auto;
+        overflow-y: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .module-border-wrap {
+        margin: 15px auto;
+        width: auto;
+        max-width: 480px;
+        height: auto;
+        min-height: 500px;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        padding: 3px;
+        background-color: #bf033b;
+      background-image: var(--gradient); 
+       box-shadow:rgba(100, 78, 10, .5) 0px 4px 8px;
+       background-size: 100%;
+    }
+    .module {
+        min-height: 500px;
+        height: auto;
+        background: white;
+        color:#222 ;
+        padding: 1rem;
+    }
+    #input-box{
+        width: 95%;
+        min-height: 450px;
+        height: auto;
+        min-height: 100px;
+        margin: 15px auto;
+        padding: 15px 10px;
+        border-radius: 10px;
+        border: 1px solid var(--yellow);
+        text-align:center;
+        font-size: 1.25em;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px){
+    body{
+        height: auto;
+        width: auto;
+    }
+    
+    .module-border-wrap {
+        margin: 15px auto;
+        width: auto;
+        max-width: 700px;
+        height: auto;
+        min-height: 500px;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        padding: 3px;
+        background-color: #bf033b;
+      background-image: var(--gradient); 
+       box-shadow:rgba(100, 78, 10, .5) 0px 4px 8px;
+       background-size: 100%;
+    }
+    .module {
+        min-height: 500px;
+        height: auto;
+        background: white;
+        color:#222 ;
+        padding: 1rem;
+    }
+    #input-box{
+        width: 95%;
+        min-height: 450px;
+        height: auto;
+        min-height: 100px;
+        margin: 15px auto;
+        padding: 15px 10px;
+        border-radius: 10px;
+        border: 1px solid var(--yellow);
+        text-align:center;
+        font-size: 1.25em;
+    }
+}
+@media screen and (min-width: 801px){
+    body{
+        height: auto;
+        width: auto;
+    }
+    
+    .module-border-wrap {
+        margin: 15px auto;
+        width: auto;
+        max-width: 700px;
+        height: auto;
+        min-height: 500px;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        padding: 3px;
+        background-color: #bf033b;
+      background-image: var(--gradient); 
+       box-shadow:rgba(100, 78, 10, .5) 0px 4px 8px;
+       background-size: 100%;
+    }
+    .module {
+        min-height: 500px;
+        height: auto;
+        background: white;
+        color:#222 ;
+        padding: 1rem;
+    }
+    #input-box{
+        width: 95%;
+        min-height: 450px;
+        height: auto;
+        min-height: 100px;
+        margin: 15px auto;
+        padding: 15px 10px;
+        border-radius: 10px;
+        border: 1px solid var(--yellow);
+        text-align:center;
+        font-size: 1.25em;
+    }
+}

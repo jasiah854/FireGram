@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#bf033b">
+     <!--Local css-->
+   <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+   <link rel="stylesheet" type="text/css" href="./css/index.css"> 
+   <link rel="stylesheet" type="text/css" href="./css/responsive.css"> 
+   <!--font awesome icons-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  
+    <title>FireGram</title>
+
+    
+</head>
+<body>
+
+    
+    
+    <!--login box-->
+    <div class="module-border-wrap">
+        <div class="module">
+
+     <!--light and dark mode toggle-->
+        <div id="checkbox-container">
+         <input type="checkbox" class="checkbox" id="checkbox">
+         <label for="checkbox" class="checkbox-label">
+             <i class="fas fa-moon"></i>
+             <i class="fas fa-sun"></i>
+             <div class="ball"></div>
+         </label>
+        </div>
+
+        <h1>FireGram <i class="fas fa-fire fa-gradient"></i></h1>
+        <!--text input -->
+        <div id="input-box"> 
+        <label for="user-name"> User Name </label><br>
+        <input type="text" id="user-name"></input>
+        <br><br>
+        <label for="user-pass"> Password </label><br>
+        <input type="text" id="user-pass"></input>
+        <p id="msg"></p>
+        <i id="button2" class="fas fa-sign-in-alt fa-gradient" onclick="login();"></i>
+        </div>
+        </div>
+    </div>
+
+
+
+ 
+
+    
+<p id="foot"><i class="fas fa-fire fa-gradient"></i> FireGram &copy; 2020 </p>
+
+<script src="./main.js"></script>    
+
+</body>
+</html>
+

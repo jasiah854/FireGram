@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --gradient: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+    --yellow:  #ffc719;
+    --red: #bf033b;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent; /*  Optional: just make scrollbar invisible */
+    
+}
+/* Optional: show position indicator in red 
+::-webkit-scrollbar-thumb {
+    background-color: var(--red);
+    width: 10px;
+    border-radius: 25px;
+}*/
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    min-width: 350px;
+    height: auto;
+    /*background-color: rgb(250, 250, 250);*/ 
+    align-items: center;
+    overflow-x: hidden;
+    transition: background 0.2s linear;
+    justify-content: center;
+    text-align: center;
+}
+body.dark{
+    background-color: #222;
+}
+body.dark p {
+    color: #fff;
+}
+.fa-gradient {
+	background: -webkit-gradient(linear, left top, left bottom, from(var(--red)), to(var(--yellow)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ /*light dark mode toogle*/
+ #checkbox-container{
+    width: 52px;
+    border-radius: 15px;
+    height: auto;
+    border: 1px solid var(--yellow);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.checkbox-label{
+    background-color: #111;   
+    display: flex;
+    border-radius: 50px;
+    height: 26px;
+    width: 50px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}  
+.fa-moon{
+    color: var(--yellow);
+}
+.fa-sun{
+    color: var(--red);
+}
+.ball{  
+  border-radius: 50%;
+  position: absolute;
+  top: 2px ;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball{
+    transform: translateX(24px);
+}
+
+
