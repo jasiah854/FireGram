@@ -10,22 +10,19 @@
     --gradient: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
     --yellow:  #ffc719;
     --red: #bf033b;
+    --font-family: 'Open Sans', sans-serif;
+     /* Light Theme */
+    --background-color: #ffffff;
+    --background-color-alt: #eeeeee;
+    --trim-color: #dddddd;
+    --text-color: #1f1e1e;  
+
     --dark-background-color: #111111;
     --dark-background-color-alt: #222222;
     --dark-trim-color: #333333;
     --dark-text-color: #eeeeee;
 }
-
-
-
 body {
-    /* Light Theme */
-    --background-color: #ffffff;
-    --background-color-alt: #eeeeee;
-    --trim-color: #dddddd;
-    --text-color: #1f1e1e;    
-    --font-family: 'Open Sans', sans-serif;
-
     overflow: scroll;
     overflow-x: hidden;
     position: relative;

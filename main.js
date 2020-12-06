@@ -1,5 +1,13 @@
 const validUser = "jasiah36";
 const validPass = "pass";
+var userInput = document.getElementById("user-pass");
+var userIdCounter = 1;
+userInput.addEventListener("keydown", async(event) => {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("button2").click();
+  }
+});
 async function login() {
   const pass = document.getElementById("user-pass").value;
   const user = document.getElementById("user-name").value; 
