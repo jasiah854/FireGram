@@ -12,14 +12,10 @@
     background-size: 100%;
 }
 .module {
-    background: white;
-    color:#222 ;
+    background: var(--background-color);
+    color: var(--text-color);
     padding: 1rem;
 }
-body.dark .module{
-    background-color: #222;
-    color: #fff;
-} 
 
 textarea:focus, input:focus{
     outline: none;
@@ -48,9 +44,6 @@ textarea:focus, input:focus{
     height: 30px;
     width: 200px;
     text-align: center; 
-}
-body.dark #input-box{
-    border: 1px solid var(--red);
 }
 #button2{
     display: block;

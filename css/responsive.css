@@ -29,8 +29,7 @@
     .module {
         min-height: 500px;
         height: auto;
-        background: white;
-        color:#222 ;
+       
         padding: 1rem;
     }
     #input-box{
@@ -70,8 +69,7 @@
     .module {
         min-height: 500px;
         height: auto;
-        background: white;
-        color:#222 ;
+       
         padding: 1rem;
     }
     #input-box{
@@ -111,8 +109,6 @@
     .module {
         min-height: 500px;
         height: auto;
-        background: white;
-        color:#222 ;
         padding: 1rem;
     }
     #input-box{

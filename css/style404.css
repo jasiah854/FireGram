@@ -32,7 +32,9 @@ height: 50%;
 margin: auto;
 top: 0; left: 0; bottom: 0; right: 0;
 color: #fff;
+ border: 1px solid #ffffff;
 }
+
 #video-bg{
     position: relative;
     z-index: 1;

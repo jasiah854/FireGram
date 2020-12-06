@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#bf033b">
+    <meta name="theme-color" content="#ffc61a">
      <!--Local css-->
    <link rel="stylesheet" type="text/css" href="./css/style.css"> 
    <link rel="stylesheet" type="text/css" href="./css/index.css"> 
@@ -22,16 +22,14 @@
     <!--login box-->
     <div class="module-border-wrap">
         <div class="module">
-
-     <!--light and dark mode toggle-->
-        <div id="checkbox-container">
-         <input type="checkbox" class="checkbox" id="checkbox">
-         <label for="checkbox" class="checkbox-label">
-             <i class="fas fa-moon"></i>
-             <i class="fas fa-sun"></i>
-             <div class="ball"></div>
-         </label>
-        </div>
+           <div class="select">
+             <i class="fas fa-palette"> Theme</i>
+             <select class="select=input" id="sel-theme">
+                <option value="auto">Auto</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+             </select>
+            </div>
 
         <h1>FireGram <i class="fas fa-fire fa-gradient"></i></h1>
         <!--text input -->
@@ -47,13 +45,13 @@
         </div>
     </div>
 
-
+       
 
  
 
     
 <p id="foot"><i class="fas fa-fire fa-gradient"></i> FireGram &copy; 2020 </p>
-
+<script src="./light.js"></script>   
 <script src="./main.js"></script>    
 
 </body>

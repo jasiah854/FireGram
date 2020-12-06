@@ -1,22 +1,5 @@
-//light dark mode 
-const checkbox = document.getElementById("checkbox");
-checkbox.addEventListener('change', () =>{
-// change theme of website 
-document.body.classList.toggle("dark");
-});
-
 const validUser = "jasiah36";
 const validPass = "pass";
-
-/*
-var userIdCounter = 1;
-userInput.addEventListener("keydown", async(event) => {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("button2").click();
-  }
-});
-*/
 async function login() {
   const pass = document.getElementById("user-pass").value;
   const user = document.getElementById("user-name").value; 
@@ -37,4 +20,5 @@ async function login() {
   document.getElementById("user-pass").value = "";
 }
 
-//light dark mode : https://www.youtube.com/watch?v=xodD0nw2veQ
+
+//light dark mode : https://www.youtube.com/watch?v=1KPd51v3Cok
