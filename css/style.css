@@ -16,21 +16,14 @@
     --dark-text-color: #eeeeee;
 }
 
-@media (prefers-color-scheme: dark) {
-    body.theme-auto {
-        --background-color: var(--dark-background-color);
-        --background-color-alt: var(--dark-background-color-alt);
-        --trim-color: var(--dark-trim-color);
-        --text-color: var(--dark-text-color);
-    }
-}
+
 
 body {
     /* Light Theme */
     --background-color: #ffffff;
     --background-color-alt: #eeeeee;
     --trim-color: #dddddd;
-    --text-color: #333333;    
+    --text-color: #1f1e1e;    
     --font-family: 'Open Sans', sans-serif;
 
     overflow: scroll;
@@ -61,4 +54,11 @@ body.theme-dark {
 	-webkit-text-fill-color: transparent;
 }
 
-
+@media (prefers-color-scheme: dark) {
+    body.theme-auto {
+        --background-color: var(--dark-background-color);
+        --background-color-alt: var(--dark-background-color-alt);
+        --trim-color: var(--dark-trim-color);
+        --text-color: var(--dark-text-color);
+    }
+}
