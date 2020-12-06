@@ -54,3 +54,6 @@ textarea:focus, input:focus{
     text-align: center;
     
 }
+#foot{
+    color: var(--text-color);
+}

@@ -1,6 +1,9 @@
 /*Warm Beer
 https://www.eggradients.com/category/flame-gradient
 */
+body{
+    background: var(--background-color);
+}
 .module-border-wrap {
     max-width: 750px;
     width: auto; 

@@ -5,7 +5,6 @@
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent; /*  Optional: just make scrollbar invisible */
-    
 }
 :root {
     --gradient: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
@@ -17,26 +16,31 @@
     --dark-text-color: #eeeeee;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    overflow: scroll;
-    overflow-x: hidden;
+@media (prefers-color-scheme: dark) {
+    body.theme-auto {
+        --background-color: var(--dark-background-color);
+        --background-color-alt: var(--dark-background-color-alt);
+        --trim-color: var(--dark-trim-color);
+        --text-color: var(--dark-text-color);
+    }
+}
 
+body {
     /* Light Theme */
     --background-color: #ffffff;
     --background-color-alt: #eeeeee;
     --trim-color: #dddddd;
     --text-color: #333333;    
-    --font-family: 'Quicksand', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
 
-    color: var(--text-color);
-    font-family: var(--font-family);
-    background: var(--background-color);
-
+    overflow: scroll;
+    overflow-x: hidden;
     position: relative;
     min-width: 350px;
     height: auto;
-    /*background-color: rgb(250, 250, 250);*/ 
+    color: var(--text-color);
+    font-family: var(--font-family);
+    background: var(--background-color);
     align-items: center;
     overflow-x: hidden;
     transition: background 0.2s linear;
@@ -49,15 +53,6 @@ body.theme-dark {
     --background-color-alt: var(--dark-background-color-alt);
     --trim-color: var(--dark-trim-color);
     --text-color: var(--dark-text-color);
-}
-
-@media (prefers-color-scheme: dark) {
-    body.theme-auto {
-        --background-color: var(--dark-background-color);
-        --background-color-alt: var(--dark-background-color-alt);
-        --trim-color: var(--dark-trim-color);
-        --text-color: var(--dark-text-color);
-    }
 }
 
 .fa-gradient {
