@@ -1,3 +1,8 @@
+.select{
+position: absolute;
+right: 10px;
+top: 10px;
+}
 
 /*login box*/
 .module-border-wrap {
@@ -8,7 +13,7 @@
     padding: 4px;
     background-color: #bf033b;
     background-image: var(--gradient); 
-    box-shadow:rgba(100, 78, 10, .5) 0px 4px 8px;
+    box-shadow:rgba(100, 78, 10, .45) 2px 4px 8px;
     background-size: 100%;
 }
 .module {
@@ -29,6 +34,10 @@ textarea:focus, input:focus{
     border-radius: 10px;
     border: 1px solid var(--yellow);
     text-align:center;
+}
+input[type="text"]
+{
+    font-size:20px;
 }
 
 #user-pass{

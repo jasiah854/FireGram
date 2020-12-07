@@ -3,16 +3,18 @@
 @media screen and (min-width: 350px) and (max-width: 500px){
     body{
         
+        overflow: scroll;
+        overflow-x: hidden;
         width: auto;
         height: auto;
-        overflow-y: hidden;
+        
         text-align: center;
         justify-content: center;
         align-items: center;
     }
 
     .module-border-wrap {
-        margin: 15px auto;
+        margin: 10px auto;
         width: auto;
         max-width: 480px;
         height: auto;
@@ -52,7 +54,7 @@
     }
     
     .module-border-wrap {
-        margin: 15px auto;
+        margin: 10px auto;
         width: auto;
         max-width: 700px;
         height: auto;
@@ -92,7 +94,7 @@
     }
     
     .module-border-wrap {
-        margin: 15px auto;
+        margin: 10px auto;
         width: auto;
         max-width: 700px;
         height: auto;

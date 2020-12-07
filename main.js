@@ -15,9 +15,7 @@ async function login() {
   if (validUser !== user){
       console.log("user does not exist");
       document.getElementById("msg").innerText = "User does Not Exist!";
-    
   }else if (validUser == user && validPass == pass){
-    
      window.location.href = "home.html";
   }
   else if (validUser == user && validPass !== pass){

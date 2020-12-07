@@ -11,11 +11,11 @@ function applyTheme(theme) {
     for (const optionElement of document.querySelectorAll("#sel-theme option")) {
       optionElement.selected = savedTheme === optionElement.value;
     }
-  
+  if (document.querySelector("#sel-theme") !== null){
     document.querySelector("#sel-theme").addEventListener("change", function () {
       localStorage.setItem("theme", this.value);
       applyTheme(this.value);
-    });
+    });}
   });
   /*
   

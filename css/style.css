@@ -7,7 +7,8 @@
     background: transparent; /*  Optional: just make scrollbar invisible */
 }
 :root {
-    --gradient: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+  /*  --gradient: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);*/
+    --gradient: linear-gradient(315deg, #bf033b 25%, #ffc719 43%);
     --yellow:  #ffc719;
     --red: #bf033b;
     --font-family: 'Open Sans', sans-serif;
@@ -25,6 +26,7 @@
 body {
     overflow: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     position: relative;
     min-width: 350px;
     height: auto;
