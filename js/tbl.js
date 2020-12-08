@@ -1,18 +1,13 @@
-const myNotes = async() => {
+const notes = async() => {
   var x = document.getElementById("module1");
  
   if (x.style.display === "none") {
     x.style.display = "block";
-  } else {
+  } 
+  else {
     x.style.display = "none";
   }
- window.onscroll = function(event) {
-    console.log('Scrolling...');
-    x.style.display = "none";
-  };
-  var bod = document.getElementById("module");
-  function myFunction() {x.style.display = "none";}
-  document.bod.addEventListener("scroll", myFunction );
+
 
 }
 const formatAMPM = (date) => {
@@ -25,7 +20,7 @@ const formatAMPM = (date) => {
   hours = hours % 12;
   hours = hours ? hours : 12; // the hour '0' should be '12'
   minutes = minutes < 10 ? '0'+minutes : minutes;
-  var dateAndTime = month + "/" + day + "/" + year + " at " + hours + ':' + minutes + ' ' + ampm;
+  var dateAndTime = month + "/" + day + "/" + year + "  (" + hours + ':' + minutes + ' ' + ampm + ")";
   var strTime = hours + ':' + minutes + ' ' + ampm;
   return dateAndTime;
 }

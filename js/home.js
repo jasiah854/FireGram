@@ -15,7 +15,7 @@ for (var i = 0; i < 10; i++){
     div.className = "card card-plus"
     div.innerHTML = `<img style="height: 350px; max-width: 650px; width: auto;"class="card-img-top" src="./images/img${i}.jpg" alt="img">
     <div class="card-body" style="border: 1px solid #ffc61a;">
-    <i id="btn${i}" onclick="toggle(this.id)"  class=" far fa-heart red"></i>
+    <i id="btn${i}" onclick="toggle(this.id)"  class="red far fa-heart "></i>
     <h2 style="margin: -2px auto; font-size: 1.2rem; color: #181818;">@${names[i]}</h2>
     <p class="card-text" style="color: #181818;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>`;             
